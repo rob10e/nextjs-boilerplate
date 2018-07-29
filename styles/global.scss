@@ -1,0 +1,38 @@
+a:hover {
+  cursor: pointer;
+}
+
+html,
+body,
+#__next {
+  width: 100%;
+  height: 100%;
+}
+
+#__next,
+.main-content {
+  display: flex;
+}
+#__next {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+header,
+footer {
+  flex-shrink: 0;
+}
+
+.main-content {
+  flex: 1;
+  margin: 30px auto;
+  overflow: auto;
+}
+
+p.card-text {
+  font-size: 1rem;
+}
+
+footer {
+  padding: 10px;
+}

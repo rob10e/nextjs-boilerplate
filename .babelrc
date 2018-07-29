@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    "transform-class-properties"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "inline-dotenv"
+      ]
+    },
+    "production": {
+      "plugins": [
+        "transform-inline-environment-variables"
+      ]
+    }
+  }
+}

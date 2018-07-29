@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-boilerplate",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "next"
+  },
+  "author": {
+    "name": "Robert Tenney"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "babel-plugin-inline-dotenv": "latest",
+    "babel-plugin-transform-class-properties": "latest",
+    "babel-plugin-transform-inline-environment-variables": "latest",
+    "bootstrap-material-design": "^4.1.1",
+    "dotenv": "^6.0.0",
+    "next": "latest",
+    "node-sass": "^4.9.2",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "styled-jsx": "latest"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0"
+  }
+}
